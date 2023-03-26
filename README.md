@@ -12,5 +12,5 @@
 
 | Fullname | ID | Github |
 | --- | --- | --- |
-| Dinh Thanh Phat | 21520083 | [https://github.com/sinkthemall] Sinkthemall |
+| Dinh Thanh Phat | 21520083 | [Sinkthemall](https://github.com/sinkthemall) |
 | Tran Nguyen Huy | 21520937 | ?????? |
