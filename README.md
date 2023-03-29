@@ -7,7 +7,10 @@
 - Như với bất kỳ công nghệ bảo mật nào, AES không hoàn toàn không bị tấn công.
 - Hiểu các lỗ hổng của nó để phát triển các biện pháp bảo mật hiệu quả.
 ### Goal
-
+- Tổng quan về tính bảo mật của AES trong việc bảo mật thông tin nhạy cảm hiện nay. 
+- Làm rõ các lỗ hổng của AES, bao gồm các điểm yếu có thể bị khai thác.
+- Xác định các loại tấn công khác nhau đã được phát hiện nhằm vào AES, bao gồm những loại hiện có và tiềm tàng trong tương lai.
+- Đưa ra hướng khai thác và chạy thử nghiệm một vài loại tấn công tiêu biểu.
 ### Configuration
 
 ### Contributor
