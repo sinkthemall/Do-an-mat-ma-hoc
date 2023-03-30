@@ -7,7 +7,7 @@
 - As same as many encrypting algorithms, it's not impossuble to attack AES. 
 - Understanding its vulnerabilities provides knowledges to develop more secure way to protect user's information.
 ### Goal
-- Summary of AES's secuirty in protecting information nowadays.
+- Summary of AES's security in protecting information nowadays.
 - Clarify AES's vulnerabilites, including some weakness which can be easily exploited.
 - Identify different attacks that has been spotted into AES recently, including existing  and some potential attacks in the future.
 - Giving attack vectors, solution and testing some typical attack in AES.
