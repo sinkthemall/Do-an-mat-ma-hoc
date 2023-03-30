@@ -3,19 +3,20 @@
 
 
 ### Scenario
-- AES là một thuật toán mã hóa được sử dụng rộng rãi để bảo mật thông tin nhạy cảm như các giao dịch tài chính, hồ sơ y tế, ...
-- Như với bất kỳ công nghệ bảo mật nào, AES không hoàn toàn không bị tấn công.
-- Hiểu các lỗ hổng của nó để phát triển các biện pháp bảo mật hiệu quả.
+- AES is an encrpytion algorithm used widely in order to protect user's information, financial trancsaction, medical profiles, ...
+- As same as many encrypting algorithms, it's not impossuble to attack AES. 
+- Understanding its vulnerabilities provides knowledges to develop more secure way to protect user's information.
 ### Goal
-- Tổng quan về tính bảo mật của AES trong việc bảo mật thông tin nhạy cảm hiện nay. 
-- Làm rõ các lỗ hổng của AES, bao gồm các điểm yếu có thể bị khai thác.
-- Xác định các loại tấn công khác nhau đã được phát hiện nhằm vào AES, bao gồm những loại hiện có và tiềm tàng trong tương lai.
-- Đưa ra hướng khai thác và chạy thử nghiệm một vài loại tấn công tiêu biểu.
-### Configuration
+- Summary of AES's secuirty in protecting information nowadays.
+- Clarify AES's vulnerabilites, including some weakness which can be easily exploited.
+- Identify different attacks that has been spotted into AES recently, including existing  and some potential attacks in the future.
+- Giving attack vectors, solution and testing some typical attack in AES.
 
+### Configuration
+- Khúc này thì config của máy tính thôi, cứ đưa đại như xài chip gì, hệ điều hành nào, bla bla
 ### Contributor
 
 | Fullname | ID | Github |
 | --- | --- | --- |
 | Dinh Thanh Phat | 21520083 | [Sinkthemall](https://github.com/sinkthemall) |
-| Tran Nguyen Huy | 21520937 | ?????? |
+| Tran Nguyen Huy | 21520937 | Điền mail của m vào chỗ này |
