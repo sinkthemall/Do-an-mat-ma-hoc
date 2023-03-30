@@ -1,9 +1,10 @@
 # AES Security and Vulnerability: An Overview of Existing and Potential Attacks
 ### Purpose
 
+- Securing data is one of the most important things on Internet, protecting user's informations, financial trancstion, ... from hackers . An popular securing encryption algorithm nowadays is AES - stand for Advance Encryption Standard. AES has been used widely in important systems, keeping secret, data safely. Without proper knowledge about AES, or understanding its mechanic wrong could lead to several issues, causing bad consequences : personal data leaking, blackmail on sensitive data, ... Therefore, it is very important to understanding about how AES work, how it affect data and its vulnerabilites. This project providing an overview about AES, some potential vulnerabilities and solutions to keep data safe.
 
 ### Scenario
-- AES is an encrpytion algorithm used widely in order to protect user's information, financial trancsaction, medical profiles, ...
+- AES is an encryption algorithm used widely in order to protect user's information, financial trancsaction, medical profiles, ...
 - As same as many encrypting algorithms, it's not impossuble to attack AES. 
 - Understanding its vulnerabilities provides knowledges to develop more secure way to protect user's information.
 ### Goal
