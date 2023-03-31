@@ -28,4 +28,4 @@ https://github.com/ashutosh1206/Crypton/blob/master/Authenticated-Encryption/AES
 | Fullname | ID | Github |
 | --- | --- | --- |
 | Dinh Thanh Phat | 21520083 | [Sinkthemall](https://github.com/sinkthemall) |
-| Tran Nguyen Huy | 21520937 | Điền mail của m vào chỗ này |
+| Tran Nguyen Huy | 21520937 | 21520937@gm.uit.edu.vn |
