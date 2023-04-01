@@ -18,9 +18,13 @@
 ### Reference
 
 https://eprint.iacr.org/2012/280.pdf - Improve "Partial Sum" - based Square attack on AES
+
 https://node-security.com/posts/cryptography-byte-by-byte-ecb-decryption/
+
 https://bernardoamc.com/cbc-bitflipping-attack/
+
 https://robertheaton.com/2013/07/29/padding-oracle-attack/
+
 https://github.com/ashutosh1206/Crypton/blob/master/Authenticated-Encryption/AES-GCM/Attack-Forbidden/README.md
 
 ### Contributor
