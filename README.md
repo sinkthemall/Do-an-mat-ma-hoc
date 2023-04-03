@@ -26,6 +26,7 @@ https://www.ijireeice.com/upload/2015/april-15/IJIREEICE%2028.pdf - Attack on EC
 https://wstein.org/edu/2010/414/projects/novotney.pdf - Smart attack on Weak elliptic curve
 https://eprint.iacr.org/2009/537.pdf - Cryptanalysis of two knapsack public-key cryptosystem
 https://eprint.iacr.org/2016/215.pdf - Approximate GCD problem
+
 And bunch of papers, articles that i cannot list here as it has a lot :v
 
 
