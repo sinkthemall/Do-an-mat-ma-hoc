@@ -12,8 +12,8 @@
 - An overview of the current state of security provided by asymmetric cryptography in protecting information.
 - Deeper understanding of the vulnerabilities of asymmetric cryptography and how attackers can exploit them.
 - Developing some demos how an attacker can exploit a vulnerability in asymmetric cryptography.
-- Providing the most common methods for attacking asymmetric cryptography
-- Promoting awareness and understanding of the importance of secure encryption practices
+- Providing the most common methods for attacking asymmetric cryptography.
+- Promoting awareness and understanding of the importance of secure encryption practices.
 
 ### Configuration
 - Khúc này thì config của máy tính thôi, cứ đưa đại như xài chip gì, hệ điều hành nào, bla bla
