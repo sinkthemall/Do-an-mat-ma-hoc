@@ -4,9 +4,9 @@
 - This project aim to provide to you a deep look into asymmetric cryptography : how does it works, its weaknesses and how we could protect our informations with it. This project will focus on 3 main asymmetric cipher : RSA, ECC  and lattice-based cryptography.
 
 ### Scenario
-- AES is an encryption algorithm used widely in order to protect user's information, financial trancsaction, medical profiles, ...
-- As same as many encrypting algorithms, it's not impossuble to attack AES. 
-- Understanding its vulnerabilities provides knowledges to develop more secure way to protect user's information.
+- Asymmetric cipher is used to transfer shared-key (reason for this is because most of asymmetric ciphers are time-consuming as it costs a lot to compute and transfer ciphertext)
+- Weak implementation or using it wrong could lead to secret key reveal, or decryption of ciphertext without secret key.
+
 ### Goal
 - Summary of AES's security in protecting information nowadays.
 - Clarify AES's vulnerabilites, including some weakness which can be easily exploited.
