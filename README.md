@@ -21,7 +21,9 @@
 https://wstein.org/edu/2010/414/projects/chu.pdf - How big can RSA be factored.
 https://www.iacr.org/archive/pkc2004/29470001/29470001.pdf - A generalization of Wiener Attack
 http://ramanujan.math.trinity.edu/rdaileda/teach/s18/m3341/lectures/fermat_factor.pdf 
+https://crypto.stanford.edu/~dabo/pubs/papers/RSA-survey.pdf - Twenty years of attack on RSA cryptosystem
 https://www.ijireeice.com/upload/2015/april-15/IJIREEICE%2028.pdf - Attack on ECDLP
+https://wstein.org/edu/2010/414/projects/novotney.pdf - Smart attack on Weak elliptic curve
 
 
 ### Contributor
