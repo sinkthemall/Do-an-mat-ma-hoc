@@ -9,13 +9,11 @@
 - Weak implementation or misuse could lead to secret key reveal, or decryption of ciphertext without secret key, even forged signature on fake contracts.
 
 ### Goal
-
-
-### Configuration
-- Operating system : Window 11 Home single Language 64 bit
-- Processor: 11th Gen Intel(R) Core(TM) i7-11800H 2.30 GHz(16 CPUs)
-- Memory : 8Gb
-- GPU : NVIDIA GeForce RTX 3050 Laptop GPU
+- An overview of the current state of security provided by asymmetric cryptography in protecting information.
+- Deeper understanding of the vulnerabilities of asymmetric cryptography and how attackers can exploit them.
+- Providing the most common methods for attacking asymmetric cryptography.
+- Developing some demos how an attacker can exploit a vulnerability in asymmetric cryptography.
+- Promoting awareness and understanding of the importance of secure encryption practices.
 
 ### Reference
 
