@@ -6,7 +6,7 @@
 ### Scenario
 - Asymmetric ciphers are used to transfer shared-key (reason for this is because most of asymmetric ciphers are time-consuming as it costs a lot to compute and transfer ciphertext)
 - Asymmetric ciphers are also the core of DSA (Digital Signature Algorithm), it is used to sign, protect the interity of contracts.
-- Weak implementation or using it wrong could lead to secret key reveal, or decryption of ciphertext without secret key, even forged signature on fake contracts.
+- Weak implementation or misuse could lead to secret key reveal, or decryption of ciphertext without secret key, even forged signature on fake contracts.
 
 ### Goal
 - Summary of AES's security in protecting information nowadays.
@@ -18,6 +18,10 @@
 - Khúc này thì config của máy tính thôi, cứ đưa đại như xài chip gì, hệ điều hành nào, bla bla
 ### Reference
 
+https://wstein.org/edu/2010/414/projects/chu.pdf - How big can RSA be factored.
+https://www.iacr.org/archive/pkc2004/29470001/29470001.pdf - A generalization of Wiener Attack
+http://ramanujan.math.trinity.edu/rdaileda/teach/s18/m3341/lectures/fermat_factor.pdf 
+https://www.ijireeice.com/upload/2015/april-15/IJIREEICE%2028.pdf - Attack on ECDLP
 
 
 ### Contributor
