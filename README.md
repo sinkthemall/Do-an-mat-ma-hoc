@@ -34,4 +34,4 @@ And bunch of papers, articles that i cannot list here as it has a lot :v
 | Fullname | ID | Github |
 | --- | --- | --- |
 | Dinh Thanh Phat | 21520083 | [Sinkthemall](https://github.com/sinkthemall) |
-| Tran Nguyen Huy | 21520937 | 21520937@gm.uit.edu.vn |
+| Tran Nguyen Huy | 21520937 | [Sm1leisnotbad](https://github.com/sm1leisnotbad) |
