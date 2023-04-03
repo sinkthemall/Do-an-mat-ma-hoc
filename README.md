@@ -1,7 +1,7 @@
-# An In-Depth Look at Advanced Attacks on Asymmetric Cryptosystem
+# An In-Depth Look at Advanced Attacks on Asymmetric Cryptography
 ### Purpose
 
-- This project aim to provide to you a deep look into asymmetric cryptosystem : how does it works, its weaknesses and how dangerous it is when we don't implement it correctly . This project will focus on 3 main asymmetric cryptosystem : RSA, ECC  and lattice-based cryptography.
+- This project aim to provide to you a deep look into asymmetric cryptography : how does it works, its weaknesses and how dangerous it is whem we implement encryption poorly or incorrectly. This project will focus on 3 main asymmetric cipher : RSA, ECC  and lattice-based cryptography.
 
 ### Scenario
 - Asymmetric ciphers are used to transfer shared-key (reason for this is because most of asymmetric ciphers are time-consuming as it costs a lot to compute and transfer ciphertext)
@@ -9,25 +9,20 @@
 - Weak implementation or misuse could lead to secret key reveal, or decryption of ciphertext without secret key, even forged signature on fake contracts.
 
 ### Goal
-
+- An overview of the current state of security provided by asymmetric cryptography in protecting information.
+- Deeper understanding of the vulnerabilities of asymmetric cryptography and how attackers can exploit them.
+- Developing some demos how an attacker can exploit a vulnerability in asymmetric cryptography.
+- Providing the most common methods for attacking asymmetric cryptography
+- Promoting awareness and understanding of the importance of secure encryption practices
 
 ### Configuration
-- Operating system : Window 11 Home single Language 64 bit
-- Processor: 11th Gen Intel(R) Core(TM) i7-11800H 2.30 GHz(16 CPUs)
-- Memory : 8Gb
-- GPU : NVIDIA GeForce RTX 3050 Laptop GPU
-
+- Khúc này thì config của máy tính thôi, cứ đưa đại như xài chip gì, hệ điều hành nào, bla bla
 ### Reference
 
 https://wstein.org/edu/2010/414/projects/chu.pdf - How big can RSA be factored.
 https://www.iacr.org/archive/pkc2004/29470001/29470001.pdf - A generalization of Wiener Attack
-https://crypto.stanford.edu/~dabo/pubs/papers/RSA-survey.pdf - Twenty years of attack on RSA cryptosystem
+http://ramanujan.math.trinity.edu/rdaileda/teach/s18/m3341/lectures/fermat_factor.pdf 
 https://www.ijireeice.com/upload/2015/april-15/IJIREEICE%2028.pdf - Attack on ECDLP
-https://wstein.org/edu/2010/414/projects/novotney.pdf - Smart attack on Weak elliptic curve
-https://eprint.iacr.org/2009/537.pdf - Cryptanalysis of two knapsack public-key cryptosystem
-https://eprint.iacr.org/2016/215.pdf - Approximate GCD problem
-
-And bunch of papers, articles that i cannot list here as it has a lot :v
 
 
 ### Contributor
@@ -35,4 +30,4 @@ And bunch of papers, articles that i cannot list here as it has a lot :v
 | Fullname | ID | Github |
 | --- | --- | --- |
 | Dinh Thanh Phat | 21520083 | [Sinkthemall](https://github.com/sinkthemall) |
-| Tran Nguyen Huy | 21520937 | [Sm1leisnotbad](https://github.com/sm1leisnotbad) |
+| Tran Nguyen Huy | 21520937 | 21520937@gm.uit.edu.vn |
