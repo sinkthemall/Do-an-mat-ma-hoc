@@ -1,7 +1,7 @@
 # An In-Depth Look at Advanced Attacks on Asymmetric Cryptography
 ### Purpose
 
-- Securing data is one of the most important things on Internet, protecting user's informations, financial trancstion, ... from hackers . An popular securing encryption algorithm nowadays is AES - stand for Advance Encryption Standard. AES has been used widely in important systems, keeping secret, data safely. Without proper knowledge about AES, or understanding its mechanic wrong could lead to several issues, causing bad consequences : personal data leaking, blackmail on sensitive data, ... Therefore, it is very important to understanding about how AES work, how it affect data and its vulnerabilites. This project providing an overview about AES, some potential vulnerabilities and solutions to keep data safe.
+- This project aim to provide to you a deep look into asymmetric cryptography : how does it works, its weaknesses and how we could protect our informations with it. This project will focus on 3 main asymmetric cipher : RSA, ECC  and lattice-based cryptography.
 
 ### Scenario
 - AES is an encryption algorithm used widely in order to protect user's information, financial trancsaction, medical profiles, ...
