@@ -9,10 +9,7 @@
 - Weak implementation or misuse could lead to secret key reveal, or decryption of ciphertext without secret key, even forged signature on fake contracts.
 
 ### Goal
-- Summary of AES's security in protecting information nowadays.
-- Clarify AES's vulnerabilites, including some weakness which can be easily exploited.
-- Identify different attacks that has been spotted into AES recently, including existing  and some potential attacks in the future.
-- Giving attack vectors, solution and testing some typical attack in AES.
+
 
 ### Configuration
 - Khúc này thì config của máy tính thôi, cứ đưa đại như xài chip gì, hệ điều hành nào, bla bla
