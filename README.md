@@ -1,7 +1,7 @@
-# An In-Depth Look at Advanced Attacks on Asymmetric Cryptography
+# An In-Depth Look at Advanced Attacks on Asymmetric Cryptosystem
 ### Purpose
 
-- This project aim to provide to you a deep look into asymmetric cryptography : how does it works, its weaknesses and how we could protect our informations with it. This project will focus on 3 main asymmetric cipher : RSA, ECC  and lattice-based cryptography.
+- This project aim to provide to you a deep look into asymmetric cryptosystem : how does it works, its weaknesses and how we could protect our informations with it. This project will focus on 3 main asymmetric cipher : RSA, ECC  and lattice-based cryptography.
 
 ### Scenario
 - Asymmetric ciphers are used to transfer shared-key (reason for this is because most of asymmetric ciphers are time-consuming as it costs a lot to compute and transfer ciphertext)
@@ -17,10 +17,12 @@
 
 https://wstein.org/edu/2010/414/projects/chu.pdf - How big can RSA be factored.
 https://www.iacr.org/archive/pkc2004/29470001/29470001.pdf - A generalization of Wiener Attack
-http://ramanujan.math.trinity.edu/rdaileda/teach/s18/m3341/lectures/fermat_factor.pdf 
 https://crypto.stanford.edu/~dabo/pubs/papers/RSA-survey.pdf - Twenty years of attack on RSA cryptosystem
 https://www.ijireeice.com/upload/2015/april-15/IJIREEICE%2028.pdf - Attack on ECDLP
 https://wstein.org/edu/2010/414/projects/novotney.pdf - Smart attack on Weak elliptic curve
+https://eprint.iacr.org/2009/537.pdf - Cryptanalysis of two knapsack public-key cryptosystem
+https://eprint.iacr.org/2016/215.pdf - Approximate GCD problem
+
 
 
 ### Contributor
