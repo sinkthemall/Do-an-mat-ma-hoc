@@ -12,7 +12,11 @@
 
 
 ### Configuration
-- Khúc này thì config của máy tính thôi, cứ đưa đại như xài chip gì, hệ điều hành nào, bla bla
+- Operating system : Window 11 Home single Language 64 bit
+- Processor: 11th Gen Intel(R) Core(TM) i7-11800H 2.30 GHz(16 CPUs)
+- Memory : 8Gb
+- GPU : NVIDIA GeForce RTX 3050 Laptop GPU
+
 ### Reference
 
 https://wstein.org/edu/2010/414/projects/chu.pdf - How big can RSA be factored.
@@ -22,7 +26,7 @@ https://www.ijireeice.com/upload/2015/april-15/IJIREEICE%2028.pdf - Attack on EC
 https://wstein.org/edu/2010/414/projects/novotney.pdf - Smart attack on Weak elliptic curve
 https://eprint.iacr.org/2009/537.pdf - Cryptanalysis of two knapsack public-key cryptosystem
 https://eprint.iacr.org/2016/215.pdf - Approximate GCD problem
-
+And bunch of papers, articles that i cannot list here as it has a lot :v
 
 
 ### Contributor
