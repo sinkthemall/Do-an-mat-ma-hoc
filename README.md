@@ -16,6 +16,12 @@
 - Developing some demos how an attacker can exploit a vulnerability in asymmetric cryptography.
 - Promoting awareness and understanding of the importance of secure encryption practices.
 
+### Configuration
+- Operating system : Windows 11 Home single Language 64 bit
+- Processor : 11th Gen Intel(R) Core(TM) i7 - 11800H @ 2.30Ghz (16CPUs)
+- GPU : NVIDIA GeForce RTX 3050 Laptop GPU
+- Memory : 8Gb
+
 ### Reference
 
 https://wstein.org/edu/2010/414/projects/chu.pdf - How big can RSA be factored.
