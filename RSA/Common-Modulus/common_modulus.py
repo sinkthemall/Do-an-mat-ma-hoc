@@ -1,4 +1,4 @@
-f = open("d:\\output.txt")
+f = open("output.txt")
 ls = []
 e = 0x10001
 for i in range(17):
