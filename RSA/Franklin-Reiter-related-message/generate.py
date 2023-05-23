@@ -2,26 +2,32 @@ from Crypto.Util.number import getPrime, bytes_to_long as btl
 from Crypto.Util.number import getRandomRange
 p = getPrime(1024)
 q = getPrime(1024)
-N = p * q 
+n = p * q 
 from math import gcd 
 
 e = 101
-flag = b"CTF{#########################################}" #redacted
-flag = btl(flag)
-def f(m):
-    return (a * m + b) % N
+flag = input("Enter your message to encrypt: ")
+flag = btl(flag.encode())
+def h(m):
+    return (a * m + b) % n
 def encrypt(m):
-    return pow(m, e, N)
+    return pow(m, e, n)
 
-print(f"{N = }")
-print(f"{e = }")
+
+f = open("output.txt", "w")
+
+f.write(f"{n = }\n")
+f.write(f"{e = }\n")
 
 for _ in range(3):
-    a = getRandomRange(1, N)
-    b = getRandomRange(1, N)
-    print(f"a{_} = {a}")
-    print(f"b{_} = {b}")
-    print(f"C{_} = {encrypt(f(flag))}")
+    a = getRandomRange(1, n)
+    b = getRandomRange(1, n)
+    f.write(f"a{_} = {a}\n")
+    f.write(f"b{_} = {b}\n")
+    f.write(f"c{_} = {encrypt(h(flag))}\n")
+
+f.close()
+print("Writing result to output.txt - completed!!!")
 
 # N = 17561413745125463276278286194783217688532913224748331273497683081449221808243774766327533435019786999995023255441402077087814472156043409143698783998336886806175433002884984030456727943751193653697455697062664469802005491525229964564087570120758714100592888060789951852910403243894235418004998427079332229525550339485922643925614973682579381575550151200213666485987568048635616271181281584585502827349202771727978790453707655686889453898267190400886846068040640754408159059461669528398653453761332795874766508356787833830226510642231351269605798895839208863594010584373621748020449575114262026512729741445692209936489
 # e = 101

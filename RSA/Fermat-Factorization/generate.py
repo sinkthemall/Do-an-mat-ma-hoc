@@ -9,11 +9,24 @@ def generate_rsa_key(bitlen):
             return p, q
 
 p, q = generate_rsa_key(1024)
-flag = b"CTF{#################################################}"
-flag = btl(flag)
+flag = input("Enter message to encrypt: ")
+flag = btl(flag.encode())
+
+
 e = 0x10001
 n = p * q 
+c = pow(flag, e, n)
+f = open("output.txt", "w")
+
 print(f"{n = }")
 print(f"{e = }")
-print(f"c = {pow(flag, e, n)}")
+print(f"{c = }")
+
+f.write(f"{n = }\n")
+f.write(f"{e = }\n")
+f.write(f"{c = }\n")
+
+f.close()
+print("Writing result to output.txt - completed!!!")
+
 
