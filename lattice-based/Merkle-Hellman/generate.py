@@ -4,13 +4,13 @@ import gmpy2
 from Crypto.Util.number import isPrime, bytes_to_long, inverse, long_to_bytes
 from os import urandom
 from Crypto.Util.Padding import pad, unpad
-
+from json import loads, dumps 
 
 flag = input("Enter message to encrypt: ").strip()
 PrivateKey = namedtuple("PrivateKey", ['b', 'r', 'q'])
 #merkle hellman knapsack cryptosystem preprocessing------------------
 def gen_private_key(size):
-    s = 10000
+    s = 100000000
     b = []
     for _ in range(size):
         ai = random.randint(s + 1, 2 * s)
@@ -84,11 +84,12 @@ assert(decrypt(encrypt_key, private_key) == key)
 
 
 #-----------Final part-------------
+q = {"iv" : iv.hex(), "encrypted_message" : enc.hex()}
+
 f = open("output.txt", "w")
-f.write(f"iv : {iv.hex()}\n")
-f.write(f"Encrypted message : {enc.hex()}\n")
 f.write(f"Public key : {public_key}\n")
 f.write(f"Encrypted AES key : {encrypt_key}\n")
+f.write(f"{dumps(q)}\n")
 f.close()
 #END section-----------------------
 
