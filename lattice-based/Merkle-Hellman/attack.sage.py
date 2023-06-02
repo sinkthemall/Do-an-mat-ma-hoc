@@ -43,7 +43,8 @@ def find_secret_key():
 from Crypto.Util.number import long_to_bytes as ltb
 from Crypto.Cipher import AES 
 from Crypto.Util.Padding import unpad
-key = ltb(find_secret_key())
+from hashlib import sha256 
+key = sha256(ltb(find_secret_key())).digest()[:_sage_const_16 ]
 if key == None:
     print("Cannot recover secret key!!!")
 else:

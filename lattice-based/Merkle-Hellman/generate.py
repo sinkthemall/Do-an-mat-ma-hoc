@@ -10,7 +10,7 @@ flag = input("Enter message to encrypt: ").strip()
 PrivateKey = namedtuple("PrivateKey", ['b', 'r', 'q'])
 #merkle hellman knapsack cryptosystem preprocessing------------------
 def gen_private_key(size):
-    s = 100000000
+    s = 10000
     b = []
     for _ in range(size):
         ai = random.randint(s + 1, 2 * s)
@@ -71,10 +71,12 @@ def AES_decrypt(key, encrypted, iv):
 #END section---------
 
 
-
+from hashlib import sha256 
 #-------- Generate AES secret key and encrypt it, iv just let it stay the same, no need to encrypt it
-key = urandom(16)
-iv, enc = AES_encrypt(key, flag.encode())
+key_length = 6
+key = urandom(key_length)
+AESkey = sha256(key).digest()[:16]
+iv, enc = AES_encrypt(AESkey, flag.encode())
 private_key = gen_private_key(len(key) * 8)
 public_key = gen_public_key(private_key)
 encrypt_key = encrypt(key, public_key)
