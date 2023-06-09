@@ -31,5 +31,6 @@ def gcd(a,b):
         return gcd(b, a%b)
 
 flag = gcd(gcd(f1,f2), f0)[_sage_const_0 ]
+print("Message found : ")
 print(ltb(int(N - flag)))
 

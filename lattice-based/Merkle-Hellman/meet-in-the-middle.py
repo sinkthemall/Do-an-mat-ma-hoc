@@ -61,6 +61,7 @@ else:
         AESkey = sha256(ltb(key)).digest()[:16]
         cipher = AES.new(AESkey, AES.MODE_CBC, iv)
         try:
+            print("Message found : ")
             print(unpad(cipher.decrypt(enc), 16))
         except:
             pass

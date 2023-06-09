@@ -25,6 +25,7 @@ flag = crt(n_ls, c_ls)[0]
 
 flag, F = iroot(flag, e)
 if F:
+    print("Message found : ")
     print(unPadding(ltb(flag)))
 else:
     print("Cannot find the flag.")

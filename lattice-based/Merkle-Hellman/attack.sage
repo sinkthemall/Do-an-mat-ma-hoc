@@ -46,4 +46,5 @@ else:
     enc = bytes.fromhex(msg["encrypted_message"])
 
     cipher = AES.new(key, AES.MODE_CBC, iv)
+    print("Message found : ")
     print(unpad(cipher.decrypt(enc), 16))

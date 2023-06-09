@@ -15,5 +15,6 @@ for i in range(2, (1<<20)):
         print(f"Found {p = }")
         print(f"Found {q = }")
         d = pow(e, -1, (p-1)*(q-1))
+	print("Message found : ")
         print(ltb(pow(c,d,n)))
         break

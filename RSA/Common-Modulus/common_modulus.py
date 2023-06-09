@@ -18,5 +18,6 @@ for n1, c1 in ls:
                 p = gcd(n1,n2)
                 q = n1 // p
                 d = pow(e, -1, (p-1)*(q-1))
+		print("Message found : ")
                 print(ltb(pow(c1, d, n1)))
                 exit(0)

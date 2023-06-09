@@ -73,7 +73,7 @@ def AES_decrypt(key, encrypted, iv):
 
 from hashlib import sha256 
 #-------- Generate AES secret key and encrypt it, iv just let it stay the same, no need to encrypt it
-key_length = 24
+key_length = 6
 key = urandom(key_length)
 AESkey = sha256(key).digest()[:16]
 iv, enc = AES_encrypt(AESkey, flag.encode())

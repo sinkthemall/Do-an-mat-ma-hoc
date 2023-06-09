@@ -38,5 +38,6 @@ def pm1(n, guessy_smoothness):
 p, q = pm1(n, 17)
 assert( p* q ==n)
 d = pow(e, -1, (p-1)*(q-1))
+print("Message found : ")
 print(ltb(pow(c,d,n)))
 

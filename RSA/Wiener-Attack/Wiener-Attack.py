@@ -48,6 +48,7 @@ e = int(f.readline().replace("e = ", "").strip())
 c = int(f.readline().replace("c = ", "").strip())
 d = find_d(n,e)
 if d!= 0:
+    print("Message found : ")
     print(long_to_bytes(pow(c,d,n)))
 else:
 	print("Failed to factor n!")
