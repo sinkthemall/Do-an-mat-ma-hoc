@@ -26,7 +26,7 @@ f = open("output.txt", "w")
 f.write(f"{n = }\n")
 f.write(f"{e = }\n")
 f.write(f"{c = }\n")
-f.write(f"Truncated p = {p >> 512}")
+f.write(f"Truncated p = {p & ((1 << (512 + 256)) - 1)}\n")
 
 f.close()
 print("Writing result to output.txt - completed!!!")
