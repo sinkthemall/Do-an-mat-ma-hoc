@@ -1,7 +1,7 @@
 # An In-Depth Look at Advanced Attacks on Asymmetric Cryptosystem
 ### Purpose
 
-- This project aim to provide to you a deep look into asymmetric cryptosystem : how does it works, its weaknesses and how dangerous it is when we don't implement it correctly . This project will focus on 4 main asymmetric cryptosystem : RSA, ECC, DSA  and lattice-based cryptography.
+- This project aim to provide to you a deep look into asymmetric cryptosystem : how does it works, its weaknesses and how dangerous it is when we don't implement it correctly . This project will focus on 3 main asymmetric cryptosystem : RSA, ECC  and lattice-based cryptography.
 
 ### Scenario
 - Asymmetric ciphers are used to transfer shared-key (reason for this is because most of asymmetric ciphers are time-consuming as it costs a lot to compute and transfer ciphertext)
