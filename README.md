@@ -44,9 +44,11 @@ And bunch of papers, articles that i cannot list here as it has a lot :v
 
 ### Usage
 
-First, clone the repository:
+To use the project, please run these command below in your terminal:
 ```
 git clone https://github.com/sinkthemall/Do-an-mat-ma-hoc.git
+cd ./Do-an-mat-ma-hoc
+./setup.sh
 ```
 
 To the setup environment, you can just run the ```setup.sh``` file to automate all setup tasks. Or if you want to install individual component, then below is the list you need to install, setup:
