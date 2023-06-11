@@ -41,3 +41,22 @@ And bunch of papers, articles that i cannot list here as it has a lot :v
 | --- | --- | --- |
 | Dinh Thanh Phat | 21520083 | [Sinkthemall](https://github.com/sinkthemall) |
 | Tran Nguyen Huy | 21520937 | [Sm1leisnotbad](https://github.com/sm1leisnotbad) |
+
+### Usage
+
+First, clone the repository:
+```
+git clone https://github.com/sinkthemall/Do-an-mat-ma-hoc.git
+```
+
+To the setup environment, you can just run the ```setup.sh``` file to automate all setup tasks. Or if you want to install individual component, then below is the list you need to install, setup:
+-   sagemath
+-   python
+-   ncat
+-   some neccessary modules for python:
+    -   primefac
+    -   sympy
+    -   numpy
+    -   gmpy2
+    -   pwntools
+    -   pycryptodome
