@@ -7,7 +7,9 @@ def generate_rsa_key(bitlength):
     p = getPrime(bitlength // 2)
     q = getPrime(bitlength // 2)
     while True:
-        d = getRandomNBitInteger(bitlength // 4)
+        d = getRandomNBitInteger(bitlength // 4 - 5)
+        if d >= pow(2, bitlength // 4 - 1) // 3:
+            continue
         if gcd(d, (p-1)*(q-1)) == 1:
             e = pow(d, -1, (p-1)*(q-1))
             return p, q, e 
