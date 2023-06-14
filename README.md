@@ -24,13 +24,13 @@
 
 ### Reference
 
-https://wstein.org/edu/2010/414/projects/chu.pdf - How big can RSA be factored.
-https://www.iacr.org/archive/pkc2004/29470001/29470001.pdf - A generalization of Wiener Attack
-https://crypto.stanford.edu/~dabo/pubs/papers/RSA-survey.pdf - Twenty years of attack on RSA cryptosystem
-https://www.ijireeice.com/upload/2015/april-15/IJIREEICE%2028.pdf - Attack on ECDLP
-https://wstein.org/edu/2010/414/projects/novotney.pdf - Smart attack on Weak elliptic curve
-https://eprint.iacr.org/2009/537.pdf - Cryptanalysis of two knapsack public-key cryptosystem
-https://eprint.iacr.org/2016/215.pdf - Approximate GCD problem
+-   https://wstein.org/edu/2010/414/projects/chu.pdf - How big can RSA be factored.
+-   https://www.iacr.org/archive/pkc2004/29470001/29470001.pdf - A generalization of Wiener Attack
+-   https://crypto.stanford.edu/~dabo/pubs/papers/RSA-survey.pdf - Twenty years of attack on RSA cryptosystem
+-   https://www.ijireeice.com/upload/2015/april-15/IJIREEICE%2028.pdf - Attack on ECDLP
+-   https://wstein.org/edu/2010/414/projects/novotney.pdf - Smart attack on Weak elliptic curve
+-   https://eprint.iacr.org/2009/537.pdf - Cryptanalysis of two knapsack public-key cryptosystem
+-   https://eprint.iacr.org/2016/215.pdf - Approximate GCD problem
 
 And bunch of papers, articles that i cannot list here as it has a lot :v
 
